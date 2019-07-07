@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Ich bin Monika Jakob-Kasel. Auf dieser Website
+                                    präsentiere ich meine Werke und gebe
+                                    Einblicke in mein künstlerisches Schaffen. Außerdem
+                                    können Sie hier Neuigkeiten zu Veranstaltungen rund
+                                    um die Kunst erfahren.">
+  <meta name="keywords" content="Kunst, Art, Bilder, Künstler, Vita, Galerie">
+  <meta name="author" content="Matthias Kasel">
+
+  <link rel="stylesheet" type="text/css" href="Style/indexstyle.css" />
+  <link rel="stylesheet" type="text/css" href="Style/slidebar.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="Style/footer.css" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!--Einfügen von Favicons und TouchIcons-->
+  <link rel="apple-touch-icon" sizes="57x57" href="Bilder/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="Bilder/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="Bilder/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="Bilder/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="Bilder/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="Bilder/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="Bilder/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="Bilder/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="Bilder/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="Bilder/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="Bilder/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="Bilder/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="Bilder/favicon-16x16.png">
+  <link rel="manifest" href="Bilder/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="Bilder/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <title>Monika Jakob-Kasel - Home</title>
+
+</head>
+
+<body>
+  <!--Header-->
+  <div id="navbar">
+    <a id="newsButton" href="news.html">News</a>
+    <a id="galerieButton" href="galerie.html">Galerie</a>
+    <a id="vitaButton" href="vita.html">Vita</a>
+    <a id="indexButton" href="index.html">Home</a>
+    <img id="logomakr" src="Bilder/LogoMakr_0QLPIU.png" alt="Logo" onclick="location.href='index.html'">
+  </div>
+
+  <!--<div id="kopf">
+    <a id="logo" href="index.html">HOME</a>
+    <p>Künstlerin aus Leidenschaft</p>
+	</div>-->
+
+  <!--text zu Beginn der Seite-->
+  <div id="begrüssung">
+    <h1>Willkommen</h1>
+    <p>Ich bin Monika Jakob-Kasel, Künstlerin aus Bonn-Bad Godesberg
+       und auf dieser Seite möchte ich mich und meine Kunst vorstellen.</p>
+  </div>
+
+
+  <!-- Slideshow container -->
+  <div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <img src="Bilder/IMG_1119.jpg" style="width:100%" >
+    </div>
+
+    <div class="mySlides fade">
+      <img src="Bilder/IMG_1133.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="Bilder/visitenkarten2.jpeg" style="width:100%">
+    </div>
+
+    <!-- Next and previous buttons
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>-->
+  </div>
+  <br>
+
+  <!-- The dots/circles -->
+  <div id="punkte" style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+  <script src="Script/slideShowAuto.js"></script>
+
+  <p id="leiter">Wenn Sie mehr über mich erfahren wollen, sollten Sie meine <a href="vita.html">Vita</a> besuchen.
+  Wollen sie weitere meiner Werke sehen besuchen sie doch bitte die <a href="galerie.html">Galerie</a>. Neuigkeiten
+entnehmen Sie bitte der <a href="news.html">News</a> Seite.</p>
+
+  <div id="footer">
+    <div class="footerContainer">
+      <p>Monika Jakob-Kasel<br>
+        Leibnizstraße 82<br>
+        53177 Bonn<br>
+        0170-8325957<br>
+        <a id="mailto" href='mailto:mjkasel@t-online.de'>mjkasel@t-online.de</a></p>
+        <a href="https://www.instagram.com/mjkasel/" target="_blank" class="fa fa-instagram"></a><br>
+        <a id="impressum" href="impressum2.html">Impressum</a></div>
+  </div>
+
+</body>
+</html>

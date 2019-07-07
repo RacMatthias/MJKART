@@ -1,0 +1,45 @@
+* {box-sizing:border-box}
+
+/*div mit Bild und Kontaktdaten*/
+#portrait{
+  width: 25%;
+  height: 10%;
+  float: left;
+  margin-top: 50px;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/*div mit Lebenslauf(Vita)*/
+#lebenslauf{
+  width: 50%;
+  float: left;
+  margin-top: 130px;
+  position: relative;
+  text-align: left;
+  padding: auto;
+}
+
+/*div mit verweis auf aktuelle Ereignisse*/
+#news{
+  width: 25%;
+  height: 800px;
+  float: left;
+  margin-top: 50px;
+  position: relative;
+}
+
+#lebenslauf p, h1{
+  margin: 30px;
+  font-style: arial;
+  color: white;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+}
+
+#bildGesicht{
+  width: 70%;
+  height: 43%;
+  margin: 80px 45px 30px 45px;
+}
