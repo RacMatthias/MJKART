@@ -1,7 +1,7 @@
 from PIL import Image
 import os
 
-size = (300, 300)
+size = (600, 600)
 
 for pic in os.listdir("."):
     if pic.endswith(".jpeg") or pic.endswith(".jpg"):
